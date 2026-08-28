@@ -1,4 +1,4 @@
-const toggleButton = document.getElementById('theme-toggle');
+const toggleButton = document.getElementById('switch');
 const body = document.body;
 
 // 1. Checa se o tema salvo no navegador é o 'light'
