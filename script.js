@@ -1,19 +1,20 @@
-function toggleMode() {
-  const html = document.documentElement
-  html.classList.toggle("light")
+const toggleButton = document.getElementById('switch');
+const body = document.body;
 
-  
-  const img = document.querySelector("#profile img")
-  if (html.classList.contains("light")) {
-    
-    img.setAttribute("src", "assets/IMG_20251022_090835_019.jpg")} 
-  else {
-    img.setAttribute("src", "assets/IMG_20251022_090835_019.jpg")}
- 
-  // if (html.classList.contains("light")) {
-  //   html.classList.remove("light")
-  // } else {
-  //   html.classList.add("light")
-  // }
+// Verifica se o usuário já tinha um tema salvo
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'dark') {
+  body.classList.add('dark-mode');
 }
 
+// Ouve o clique do botão
+toggleButton.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+  
+  // Salva a preferência no navegador
+  if (body.classList.contains('dark-mode')) {
+    localStorage.setItem('theme', 'dark');
+  } else {
+    localStorage.setItem('theme', 'light');
+  }
+});
