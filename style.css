@@ -42,6 +42,7 @@ body * {
   width: 112px;
   margin: auto;
   display: block;
+  border-radius: 50%;
 }
 
 #switch {
