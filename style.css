@@ -45,8 +45,6 @@ body * {
   border-radius: 50%;
 }
 
-/*
-
 #switch {
   position: relative;
   width: 64px;
@@ -65,7 +63,7 @@ body * {
   left: 0;
   top: 50%;
   z-index: 1;
-  transform: translateY(-50%); /* Revisar! difícil entendimento */ /*
+  transform: translateY(-50%); /* Revisar! difícil entendimento */ 
   animation: slide-back 0.1s forwards;
 }
 
@@ -89,8 +87,6 @@ animation: slide-in 0.1s forwards;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
-
-*/
 
 /* links */
 
