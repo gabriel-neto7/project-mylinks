@@ -1,3 +1,4 @@
+/*
 const toggleButton = document.getElementById('switch');
 const body = document.body;
 
@@ -20,3 +21,4 @@ toggleButton.addEventListener('click', () => {
     localStorage.setItem('theme', 'dark');
   }
 });
+*/
