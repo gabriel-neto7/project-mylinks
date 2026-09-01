@@ -35,7 +35,7 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
   background: var(--surface-color);
-
+  max-width: 588px;
   border: 1px solid var(--stroke-color);
   border-radius: 8px; /*arredondar bordas*/
 
