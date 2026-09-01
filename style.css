@@ -38,6 +38,8 @@ ul li a {
   max-width: 588px;
   border: 1px solid var(--stroke-color);
   border-radius: 8px; /*arredondar bordas*/
+  margin: 0px auto 0px;
+  
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -76,13 +78,14 @@ footer {
   font-size: 14px;
 }
 
+/*
 #container {
   width: 100%;
   max-width: 588px; 
   margin: 56px auto 0px;
   padding: 0 24px;
-
 }
+*/
 
 #profile {
   text-align: center;
